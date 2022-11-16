@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <title>Log In Side</title>
+  <link rel = "icon" type = "image/x-icon" sizes="32x32" href = "/img/slogo.png">
+  <!--denne laver logo på faneblad, under herf = "img/løve.png" højreklikkes og vælges *Copy Path/Reference*
+  og vælger *Path From Content Root* dette forudsætter naturligvis at billedet er lagt i img folderen -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<section class="from my-5">
+  <div class = "col-lg-5">
+    <div class="container">
+      <div class="row">
+        <!-- Først kasse -->
+        <!-- <div class="col-lg-7 rounded"> -->
+        <!-- Anden kasse -->
+        <div class = "col-lg-7 rounded">
+          <!-- Logo -->
+          <img src="https://www.freepnglogos.com/uploads/medicine-logo-png-1.png" class="img-fluid" style="max-width:128px;width:100%" alt="">
+          <h1>EHR System</h1>
+          <!-- Login delen -->
+          <form action="api" method="Post">
+            <div class = "log-in">
+              <label for ="username" >Brugernavn: </label><br>
+              <input type="text" id ="username" name="username" value="Indtast Brugernavn"><br>
+              <label for="password" > Kodeord:</label><br>
+              <input type ="password" id="password" name="password" value="Indtast Kodeord"><br><br>
+              <input type="submit" style="cursor:pointer" value="Log ind">
+            </div>
+            <!-- Afslut login delen -->
+          </form>
+          <!-- Andre links til hjælp. evt. oprettelse -->
+          <a href ='#'>Glemt Kodeord </a>
+        </div>
+        <!--- </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
