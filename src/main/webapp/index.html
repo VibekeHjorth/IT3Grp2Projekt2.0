@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Log In Side</title>
+  <script src="./index.js"></script>
   <link rel = "icon" type = "image/x-icon" sizes="32x32" href = "/img/slogo.png">
   <!--denne laver logo på faneblad, under herf = "img/løve.png" højreklikkes og vælges *Copy Path/Reference*
   og vælger *Path From Content Root* dette forudsætter naturligvis at billedet er lagt i img folderen -->
@@ -23,13 +24,14 @@
           <img src="https://www.freepnglogos.com/uploads/medicine-logo-png-1.png" class="img-fluid" style="max-width:128px;width:100%" alt="">
           <h1>EHR System</h1>
           <!-- Login delen -->
-          <form action="api" method="Post">
+          <form action="api" id= loginForm method="Post">
             <div class = "log-in">
               <label for ="username" >Brugernavn: </label><br>
               <input type="text" id ="username" name="username" value="Indtast Brugernavn"><br>
               <label for="password" > Kodeord:</label><br>
               <input type ="password" id="password" name="password" value="Indtast Kodeord"><br><br>
-              <input type="submit" style="cursor:pointer" value="Log ind">
+              <!-- <input type="submit" style="cursor:pointer" value="Log ind"> -->
+              <button type="submit" style= "cursor:pointer" onclick="clickLogin()">Log ind</button>
             </div>
             <!-- Afslut login delen -->
           </form>

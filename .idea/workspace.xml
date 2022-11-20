@@ -9,7 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="960d85d0-2cea-4fdb-ad28-96015a6b6e34" name="Changes" comment="IT3 projekt" />
+    <list default="true" id="960d85d0-2cea-4fdb-ad28-96015a6b6e34" name="Changes" comment="IT3 projekt">
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/LoginData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/SqlConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,6 +170,13 @@
       <updated>1668520296631</updated>
       <workItem from="1668520298038" duration="5516000" />
       <workItem from="1668595937167" duration="316000" />
+      <workItem from="1668596278148" duration="322000" />
+      <workItem from="1668675746816" duration="3502000" />
+      <workItem from="1668759017326" duration="318000" />
+      <workItem from="1668762707823" duration="258000" />
+      <workItem from="1668764465324" duration="1314000" />
+      <workItem from="1668887573694" duration="842000" />
+      <workItem from="1668944620067" duration="3453000" />
     </task>
     <task id="LOCAL-00001" summary="IT3 projekt">
       <created>1668595998780</created>
@@ -175,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668596190487</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="IT3 projekt">
+      <created>1668596302693</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668596302693</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +210,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Branch1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
