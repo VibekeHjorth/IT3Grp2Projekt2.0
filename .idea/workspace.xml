@@ -9,16 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="960d85d0-2cea-4fdb-ad28-96015a6b6e34" name="Changes" comment="IT3 projekt">
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/LoginData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/SqlConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.js" afterDir="false" />
+    <list default="true" id="960d85d0-2cea-4fdb-ad28-96015a6b6e34" name="Changes" comment="Nu med lidt login api">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/consult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/consult.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/desktop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/desktop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HelloServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -176,7 +175,9 @@
       <workItem from="1668762707823" duration="258000" />
       <workItem from="1668764465324" duration="1314000" />
       <workItem from="1668887573694" duration="842000" />
-      <workItem from="1668944620067" duration="3453000" />
+      <workItem from="1668944620067" duration="4264000" />
+      <workItem from="1669295197430" duration="817000" />
+      <workItem from="1669367180880" duration="841000" />
     </task>
     <task id="LOCAL-00001" summary="IT3 projekt">
       <created>1668595998780</created>
@@ -199,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668596302693</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Nu med lidt login api">
+      <created>1668971038808</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668971038808</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +224,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/Branch1" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -227,9 +235,30 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IT3 projekt" />
-    <option name="LAST_COMMIT_MESSAGE" value="IT3 projekt" />
+    <MESSAGE value="Nu med lidt login api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nu med lidt login api" />
   </component>
 </project>

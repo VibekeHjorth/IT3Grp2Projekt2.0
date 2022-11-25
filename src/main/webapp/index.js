@@ -12,5 +12,7 @@ async function clickLogin() {
             "content-type": "application/json"
         }
     })
+
+    window.location.href="desktop.html"
     console.log(res.text());
 }
