@@ -50,7 +50,10 @@ body{
     border-radius: 20px;
     text-align: center;
 }
-
+.felt{
+    border:1px solid black;
+    border-radius: 10px;
+}
 .rounded{
     border-radius: 20px;
 }

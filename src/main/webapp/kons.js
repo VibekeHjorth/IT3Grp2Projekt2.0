@@ -1,0 +1,7 @@
+document.getElementById("CPR").innerHTML="PatientCPR"
+document.getElementById("Fornavn").innerHTML="PatientFornavn"
+document.getElementById("Efternavn").innerHTML="PatientEfternavn"
+document.getElementById("Adresse").innerHTML="PatientAdresse"
+document.getElementById("Startdato").innerHTML="KonsultationStartdato"
+document.getElementById("Varighed").innerHTML="KonsultationVarighed"
+document.getElementById("Notat").innerHTML="KonsultationNotat"
