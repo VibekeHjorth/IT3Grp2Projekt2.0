@@ -9,12 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="960d85d0-2cea-4fdb-ad28-96015a6b6e34" name="Changes" comment="Nu med lidt login api">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/consult.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/consult.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/desktop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/desktop.js" afterDir="false" />
+    <list default="true" id="960d85d0-2cea-4fdb-ad28-96015a6b6e34" name="Changes" comment="Lidt opdateret">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/desktop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/desktop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.js" afterDir="false" />
     </list>
@@ -58,25 +55,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="IT3Grp2Projekt2.0:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/IT3Grp2Projekt2_0" />
+            <option name="CONTEXT_PATH" value="/IT3Grp2Projekt2_0_war" />
           </settings>
         </artifact>
       </deployment>
@@ -177,7 +175,7 @@
       <workItem from="1668887573694" duration="842000" />
       <workItem from="1668944620067" duration="4264000" />
       <workItem from="1669295197430" duration="817000" />
-      <workItem from="1669367180880" duration="841000" />
+      <workItem from="1669367180880" duration="4485000" />
     </task>
     <task id="LOCAL-00001" summary="IT3 projekt">
       <created>1668595998780</created>
@@ -207,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668971038808</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lidt opdateret">
+      <created>1669368781215</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669368781215</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +264,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IT3 projekt" />
     <MESSAGE value="Nu med lidt login api" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nu med lidt login api" />
+    <MESSAGE value="Lidt opdateret" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lidt opdateret" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
