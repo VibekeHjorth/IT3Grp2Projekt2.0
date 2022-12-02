@@ -24,17 +24,18 @@
           <img src="https://www.freepnglogos.com/uploads/medicine-logo-png-1.png" class="img-fluid" style="max-width:128px;width:100%" alt="">
           <h1>EHR System</h1>
           <!-- Login delen -->
-          <form action="api" id= loginForm method="Post">
+          <form id= loginForm>
             <div class = "log-in">
               <label for ="username" >Brugernavn: </label><br>
               <input type="text" id ="username" name="username" value="Indtast Brugernavn"><br>
               <label for="password" > Kodeord:</label><br>
               <input type ="password" id="password" name="password" value="Indtast Kodeord"><br><br>
               <!-- <input type="submit" style="cursor:pointer" value="Log ind"> -->
-              <button type="submit" style= "cursor:pointer" onclick="clickLogin()">Log ind</button>
+
             </div>
             <!-- Afslut login delen -->
           </form>
+          <button type="submit" style= "cursor:pointer" onclick="clickLogin()">Log ind</button><br>
           <!-- Andre links til hjælp. evt. oprettelse -->
           <a href ='#'>Glemt Kodeord </a>
         </div>
